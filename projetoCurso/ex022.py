@@ -1,0 +1,6 @@
+nome = str(input('Digite seu nome completo: '))
+print('Assim ficaria o nome todo em maíusculo',(nome.upper()))
+print('Assim ficaria o nome todo em minúsculo',(nome.lower()))
+nome = nome.split()
+print("Essa é a quantidade de caractéres que tem o nome sem espaço","".join(nome).__len__())
+print("Essa é a quantidade de caractéres do primeiro nome",nome[0].__len__())
